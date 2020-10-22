@@ -2,7 +2,7 @@
 ## tools:
 * [linux-exploit-suggester](https://github.com/mzet-/linux-exploit-suggester.git)
 * [linux-exploit-suggester2](https://github.com/mzet-/linux-exploit-suggester)
-* [linuxprivchecker] (exploits for kernel 2.x)
+* [linuxprivchecker](https://github.com/sleventyeleven/linuxprivchecker)
 * [LaZagne](https://github.com/AlessandroZ/LaZagne)
 * [Beeroot](https://github.com/AlessandroZ/BeRoot)
 * [linPEAS](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS)
