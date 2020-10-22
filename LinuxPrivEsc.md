@@ -2,32 +2,31 @@
 ## tools:
 * [linux-exploit-suggester](https://github.com/mzet-/linux-exploit-suggester.git)
 * [linux-exploit-suggester2](https://github.com/mzet-/linux-exploit-suggester)
-* [linuxprivchecker.py] (exploits for kernel 2.x)
+* [linuxprivchecker] (exploits for kernel 2.x)
 * [LaZagne](https://github.com/AlessandroZ/LaZagne)
 * [Beeroot](https://github.com/AlessandroZ/BeRoot)
-* [Kernel-pop]
 * [linPEAS](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS)
-* The tool [mimipenguin](https://github.com/huntergregal/mimipenguin) will steal clear text credentials from memory and from some well known files. It requires root privileges to work properly.
+* [mimipenguin](https://github.com/huntergregal/mimipenguin)
 
 
 
 <h3>Simple Manual Priv esc<h3>
 <h4>User enumeration<h4>
 
-<h5>Info about User<h5>
+<h4>Info about User<h4>
   
 ```
 id || (whoami && groups) 2>/dev/null
 id
 ```
 
-<h5>List all users<h5>
+<h4>List all users<h4>
   
 ```
 cat /etc/passwd | cut -d: -f1
 ```
 
-<h5>List superusers<h5>
+<h4>List superusers<h4>
   
 ```
 awk -F: '($3 == "0") {print}' /etc/passwd
@@ -35,7 +34,7 @@ grep -v -E “^#” /etc/passwd | awk -F: ‘$3 == 0 { print $1}’
 awk -F: ‘($3 == “0”) {print}’ /etc/passwd   
 ```
 
-<h5>Currently logged users<h5>
+<h4>Currently logged users<h4>
 
 ```
 w
