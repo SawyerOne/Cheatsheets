@@ -6,6 +6,7 @@
 * [LaZagne](https://github.com/AlessandroZ/LaZagne)
 * [Beeroot](https://github.com/AlessandroZ/BeRoot)
 * [Kernel-pop]
+* [linPEAS](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS)
 * The tool [mimipenguin](https://github.com/huntergregal/mimipenguin) will steal clear text credentials from memory and from some well known files. It requires root privileges to work properly.
 
 
