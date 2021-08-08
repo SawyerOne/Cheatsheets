@@ -1,15 +1,13 @@
-Windows Privilage Escalation
+# Windows Privilage Escalation
 
 
 
 
-Best tool to look for Windows local privilege escalation vectors: WinPEAS
+## Best tool to look for Windows local privilege escalation vectors: WinPEAS
 
 
-Vulnerable Kernel?
 
-
- - [ ] Search for kernel exploits using scripts (post/windows/gather/enum_patches, post/multi/recon/local_exploit_suggester, sherlock, watson )
+- [ ] Search for kernel exploits using scripts (post/windows/gather/enum_patches, post/multi/recon/local_exploit_suggester, sherlock, watson )
 
 - [ ] Use Google to search for kernel exploits
 
@@ -18,7 +16,7 @@ Vulnerable Kernel?
 - [ ] Any vulnerable Driver?
 
 
-Logging/AV enumeration
+### Logging/AV enumeration
 
 
 - [ ] Check for credentials in environment variables
@@ -30,7 +28,7 @@ Logging/AV enumeration
 - [ ] Check if any AV
 
 
-User Privileges
+### User Privileges
 
 
 - [ ] Check current user privileges
@@ -40,7 +38,7 @@ User Privileges
 - [ ] What is inside the Clipboard?
 
 
-Network
+### Network
 
 
 - [ ] Check current network information
@@ -48,7 +46,7 @@ Network
 - [ ] Check hidden local services restricted to the outside
 
 
-Vulnerable Software or Processes?
+### Vulnerable Software or Processes?
 
 
 - [ ] Is any unknown software running?
@@ -68,7 +66,7 @@ Vulnerable Software or Processes?
 - [ ] Can you dump the memory of any process to extract passwords?
 
 
-Services
+### Services
 
 
 - [ ] Can you modify any service?
@@ -80,7 +78,7 @@ Services
 - [ ] Can you take advantage of any unquoted service binary path?
 
 
-DLL Hijacking
+### DLL Hijacking
 
 
 - [ ] Can you write in any folder inside PATH?
@@ -90,7 +88,7 @@ DLL Hijacking
 - [ ] Can you write in any binaries folder?
 
 
-Credentials
+### Credentials
 
 
 - [ ] Windows Vault credentials that you could use?
@@ -114,33 +112,32 @@ Credentials
 - [ ] Cloud credentials?
 
 
-AlwaysInstallElevated
+### AlwaysInstallElevated
 
 
 - [ ] Is this enabled?
 
 
-Is vulnerable WSUS?
+### Is vulnerable WSUS?
 
 
 - [ ] Is it vulnerable?
 
 
-Write Permissions
+### Write Permissions
 
 
 - [ ] Are you able to write files that could grant you more privileges?
 
 
-Any open handler of a privileged process or thread?
+### Any open handler of a privileged process or thread?
 
 
 - [ ] Maybe the compromised process is vulnerable.
 
 
-UAC Bypass
+### UAC Bypass
 
 
 - [ ] There are several ways to bypass the UAC
 
-If you want to know about my latest modifications/additions or you have any suggestion for HackTricks or PEASS, join the PEASS & HackTricks telegram group here.
